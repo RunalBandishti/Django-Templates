@@ -1,0 +1,6 @@
+<!DOCTYPE html>
+{% extends "basic_app/base.html" %} {%block body_block %}
+<h1>Index Page</h1>
+
+{{ text | cut:'hello' }} {{ number | add:'500' }} {% endblock %}
+<!-- {{ text | upper }} {{ number | add:'500' }} -->
